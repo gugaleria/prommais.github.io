@@ -188,21 +188,25 @@ h1, h2, h3 {
 #depoimentos-main {
 	box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.20);
 	display: flex;
+  justify-content: center;
+  align-itens: center;
 	flex-wrap: wrap;
 	background-color: #038c4c;
-	margin: 10px;
 	border-radius: 10px;
+  margin:10px;
+  padding-bottom: 10px;
 }
 
 .depoimentos-box {
 	background-color: white;
-	max-width: 45%;
-	margin: 10px;
+	max-width: 40%;
+	margin: 10px 10px 0px 0px;
 	box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.20);
 	border-bottom: 2px solid #12592b;
 	border-radius: 5px;
 	transition: padding 0.2s ease-in-out;
 	cursor: default;
+  padding: 5px;
 }
 
 .depoimentos-box:hover {
@@ -237,7 +241,34 @@ h1, h2, h3 {
 }
 
 .depoimentos-conteudos {
+  min-width: 50px;
+	margin: 10px;
+	border: 2px solid #038c4c;
+  border-radius: 5px;
+	overflow: hidden;
+}
+
+.depoimentos-icone img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.depoimentos-nota {
+	display: flex;
+	margin: 15px 0px 0px 15px;
+	width: 100px;
+	height: 20px;
+}
+
+.depoimentos-nota span {
+	margin: 1px;
+}
+
+.depoimentos-conteudos {
 	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}: space-between;
 	display: flex;
 	flex-wrap: wrap;
 }
