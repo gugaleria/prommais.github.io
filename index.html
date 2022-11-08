@@ -5,6 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<title>Projeto Mulheres Mais</title>
 </head>
 <body>
@@ -14,8 +19,8 @@
 			<nav class="cabecalho-links">
 				<ul>
 					<li><a href="index.html">Inicio</a></li>
-					<li><a href="index.html">Sobre</a></li>
-          			<li><a href="index.html#sobre">Programas</a>
+					<li><a href="index.html#sobre">Sobre</a></li>
+          			<li><a href="index.html#programas">Programas</a>
 					<li><a href="index.html#depoimentos">Depoimentos</a></li>
 					<li><a href="index.html#equipe">Equipe</a></li>
 
@@ -26,6 +31,7 @@
 
 
 	<section id="inicio">
+	<div class="inicio">
 		<div class="inicio-texto">
 			<img src="https://i.ibb.co/JkFzVBS/thumbnail-DC4-C5831-3456-4-DCF-A679-4-E4-FFDF5-DB2-F-1-removebg-preview.png">
 			<p>Falta esse texto; fotos para os programas; texto de descrição das partes do site (depoimentos etc); adicionar o sobre com fotos do grupo trabalhando e uma descrição á direita. </p>
@@ -34,11 +40,22 @@
 		<div class="inicio-img">
 			<img src="https://i.ibb.co/tDPHY1V/Mulheres-Mais-Site-removebg-preview-1.png">
 		</div>
+	</div>
 	</section>
 
-
-	<section id="sobre">
+  <section id="sobre">
+    <div class="sobre-div"></div>
+    <div class="sobre-div"></div>
+    <div class="sobre-div"></div>
+    <div class="sobre-div"></div>
+  </section>
+  
+	<section id="programas">
+    <div class="programas-title">
 		<h1>Conheça nossos projetos!</h1>
+      <p>Nossos programas de desenvolvimento das mulheres no Projeto Mais Mulheres desenvolvem atitudes e pensamentos críticos profissionais direcionados ao mercado de trabalho.</p>
+    </div>
+   <div class="programas-fotos">
 		<div class="relative">
 			<a href="pml.html">
 			<img src="https://i.ibb.co/mqDy3t4/IMG-20221014-WA0024-1.jpg">
@@ -74,32 +91,35 @@
       <p class="absolute-p2">Promoção da Mulher com Mais Empregabilidade</p>
       		</a>
 		</div>
+    </div>
 	</section>
 
-
-
 	<section id="depoimentos">
-		<h1>Alguns depoimentos de nossas alunas:</h1>
-		<div id="depoimentos-conteudos">
+    
+    <div class="depoimentos-title">
+		<h1>Avaliação de nossas alunas</h1>
+    <p>Nosso projeto é referência em inclusão profissional e qualidade.</p>
+    </div>
+    
 			<div class="depoimentos-box">
-				<div class="depoimentos-perfil"> 
-					<div class="depoimentos-icone">
-						<img src="https://w7.pngwing.com/pngs/666/201/png-transparent-computer-icons-woman-women-s-day-face-holidays-head-thumbnail.png"></div> 
+          <div class="depoimentos-perfil">
+					<div class="depoimentos-icone"><img src="https://w7.pngwing.com/pngs/666/201/png-transparent-computer-icons-woman-women-s-day-face-holidays-head-thumbnail.png"></div>
+          
 				<div class="depoimentos-perfil-nome">
 					<h2>Nome</h2>
-					<p>Lorem ipsum dolor sit</p>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
-				</div> 
+				</div>  
 			</div>  
+        
 				<div class="depoimentos-texto">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus in mi in malesuada. Phasellus efficitur risus nisl, non cursus eros dapibus vitae.</p>
-			</div>			
-			</div>
-
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus in mi in malesuada. Phasellus efficitur risus nisl, non cursus eros dapibus vitae.</p></div>		
+ 		</div>
+    
+    
 			<div class="depoimentos-box">
 				<div class="depoimentos-perfil">
 					<div class="depoimentos-icone">
@@ -107,12 +127,12 @@
 					</div>
 				<div class="depoimentos-perfil-nome">
 					<h2>Nome</h2>
-					<p>Lorem ipsum dolor sit</p>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
+     
 				</div>
 			</div>
 				<div class="depoimentos-texto">
@@ -127,7 +147,6 @@
 					</div>
 				<div class="depoimentos-perfil-nome">
 					<h2>Nome</h2>
-					<p>Lorem ipsum dolor sit</p>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
@@ -147,7 +166,6 @@
 					</div>
 					<div class="depoimentos-perfil-nome">
 						<h2>Nome</h2>
-						<p>Lorem ipsum dolor sit</p>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
 						<span class="fa fa-star checked"></span>
@@ -159,15 +177,14 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus in mi in malesuada. Phasellus efficitur risus nisl, non cursus eros dapibus vitae.</p>
 				</div>			
 			</div>
-		</div>
 	</section>
 
 
 	<section id="equipe">
 		<h1>Conheça nossa equipe!</h1>
 	<div id="equipe-conteudos">
-    
 		<div class="equipe-box">
+      
 			<div class="equipe-icone">
 				<img src="https://i.ibb.co/NLB94sM/Whats-App-Image-2022-11-01-at-1-30-43-PM.jpg">
 			</div>
@@ -284,6 +301,7 @@
 			<a class="cabecalho-inscricao" href="inscricao.html">Inscrever-se</a>
 			<a href="#"><img src="https://i.ibb.co/JkFzVBS/thumbnail-DC4-C5831-3456-4-DCF-A679-4-E4-FFDF5-DB2-F-1-removebg-preview.png"></a>
 
+    
 		<div class="rodape-menu">
 			<sub>© Todos os direitos reservados.</sub>
 		</div>
