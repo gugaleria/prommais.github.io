@@ -74,7 +74,10 @@ body {
 /* INICIO */
 
 
-#inicio {
+#inicio {	
+	background: url(https://img.freepik.com/free-vector/organic-white-backgroun_1199-324.jpg?w=2000);
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: white;
 	z-index: 2;
 	margin: 70px 50px 0px 40px;
@@ -566,7 +569,8 @@ body {
 /*PROJETOS*/
 
 #pml {
-  background-color: #F5F5F5;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -609,8 +613,11 @@ body {
   color: white;
 }
 .pml-2 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background: #DED6E6 url(https://img.freepik.com/vetores-gratis/copie-o-fundo-branco-ondulado-do-espaco-em-camadas_23-2148845469.jpg?w=2000);
   overflow: hidden;
-  background-color: #DED6E6;
   position: relative;
   box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.15);
   margin: 15px;
@@ -660,9 +667,26 @@ body {
   justify-items: center;
 }
 .pml-img-text {
+	font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.pml-img-text img {
+		filter: grayscale(100%);
+}
+
+.pml-img-text:hover img {
+		filter: none;
+}
+
+.pml-img-text a:hover {
+	text-decoration: underline;
+}
+
+.pml-2-text a:hover {
+	text-decoration: underline;
 }
 
 /*MEDIA QUERY*/
